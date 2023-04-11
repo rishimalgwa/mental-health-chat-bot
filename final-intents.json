@@ -1,0 +1,477 @@
+{
+  "intents": [
+    {
+      "tag": "post_traumatic_stress_disorder",
+      "patterns": [
+        "i have experienced a traumatic event",
+        "me experienced traumatic event",
+        "tackled post traumatic",
+        "i avoid certain people",
+        "i avoid people",
+        "i blame myself for what happened",
+        "i have a hard time remembering certain features of the event",
+        "i feel irritable, hyper-aware, or jumpy",
+        "i have withdrawn from friends, family, or other loved ones"
+      ],
+      "responses": [
+        "you may be suffering from post-traumatic stress disorder",
+        "you maybe suffering from post-traumatic stress disorder",
+        "these are PTSD symptoms"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "psychosis",
+      "patterns": [
+        "familiar surroundings sometimes seem strange, confusing, threatening or unreal to me",
+        "i heard unusual sounds like banging, clicking, hissing, clapping or ringing in your ears",
+        "things appear different from the way they usually do",
+        "i feel that i am not in control of my own ideas or thoughts",
+        "i feel that other people are watching me or talking about me",
+        "sometimes i feel that i don't exist, the world does not exist, or that i am dead",
+        "people sometimes find it hard to understand what i am saying"
+      ],
+      "responses": [
+        "you maybe suffering from Psychosis",
+        "these are Psychosis symptoms",
+        "contact your doctor"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "schizophrenia",
+      "patterns": [
+        "I see and hear things that others cannot see or hear",
+        "I believe others control what I think or feel",
+        "I have little or no interest in doing things",
+        "I think I have special or magical powers that no one else has",
+        "My thinking feels cloudy and confused",
+        "I know others are out to get me or plotting against me",
+        "I prefer to be alone",
+        "disorganized behavior",
+        "delusions",
+        "hallucinations",
+        "disorganized speech"
+      ],
+      "responses": [
+        "try to talk to peoples",
+        "you maybe suffering from schizophrenia",
+        "these are schizophrenia symptoms",
+        "contact your doctor",
+        "tell me more about your life"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "definition",
+      "patterns": [
+        "What does it mean to have a mental illness?",
+        "What is mental health illness",
+        "Describe mental health illness"
+      ],
+      "responses": [
+        "Mental illnesses are health conditions that disrupt a person's thoughts, emotions, relationships, and daily functioning."
+      ],
+      "context": [""]
+    },
+
+    {
+      "tag": "affects_whom",
+      "patterns": [
+        "Who does mental illness affect?",
+        "Who is affected by mentall illness"
+      ],
+      "responses": [
+        "It is estimated that mental illness affects 1 in 5 adults in America, and that 1 in 24 adults have a serious mental illness."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "what_causes",
+      "patterns": [
+        "What causes mental illness?",
+        "What leads to mental illness?",
+        "how does one get mentally ill?"
+      ],
+      "responses": [
+        "Symptoms of mental health disorders vary depending on the type and severity of the condition."
+      ],
+      "context": [""]
+    },
+
+    {
+      "tag": "recover",
+      "patterns": [
+        "Can people with mental illness recover?",
+        "Is it possible to recover from mental illness"
+      ],
+      "responses": [
+        "When healing from mental illness, early identification and treatment are of vital importance. Based on the nature of the illness, there are a range of effective treatments available. For any type of treatment, it is essential that the person affected is proactive and fully engaged in their own recovery process. Many people with mental illnesses who are diagnosed and treated respond well, although some might experience a return of symptoms. Even in such cases, with careful monitoring and management of the disorder, it is still quite possible to live a fulfilled and productive life."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "steps",
+      "patterns": [
+        "I know someone who appears to have such symptoms?",
+        "What are the steps to be followed incase of symptoms"
+      ],
+      "responses": [
+        "Although this website cannot substitute for professional advice, we encourage those with symptoms to talk to their friends and family members and seek the counsel of a mental health professional. The sooner the mental health condition is identified and treated, the sooner they can get on the path to recovery.If you know someone who is having problems, don't assume that the issue will resolve itself. Let them know that you care about them, and that there are treatment options available that will help them heal. Speak with a mental health professional or counselor if you think your friend or family member is experiencing the symptoms of a mental health condition. If the affected loved one knows that you support them, they will be more likely to seek out help."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "find_help",
+      "patterns": [
+        "How to find mental health professional for myself",
+        "How to find mental health professional?"
+      ],
+      "responses": [
+        "Feeling comfortable with the professional you or your child is working with is critical to the success of the treatment. Finding the professional who best fits your needs may require research. Start by searching for providers in your area."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "treatement_options",
+      "patterns": [
+        "What treatment options are available?",
+        "How can one recover?"
+      ],
+      "responses": [
+        "Just as there are different types of medications for physical illness, different treatment options are available for individuals with mental illness. Treatment works differently for different people. It is important to find what works best for you or your child."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "treatment_tips",
+      "patterns": [
+        "How to become involved in treatment?",
+        "What should I keep in mind if I begin treatment?"
+      ],
+      "responses": [
+        "Since beginning treatment is a big step for individuals and families, it can be very overwhelming."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "professional_types",
+      "patterns": [
+        "What is the difference between mental health professionals?",
+        "What are the different types of mental health professionals present?"
+      ],
+      "responses": [
+        "There are many types of mental health professionals. The variety of providers and their services may be confusing. Each have various levels of education, training, and may have different areas of expertise. Finding the professional who best fits your needs may require some research."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "right_professional",
+      "patterns": [
+        "How can I find a mental health professional right myself?",
+        "How to find the right mental health professional?"
+      ],
+      "responses": [
+        "Feeling comfortable with the professional you or your child is working with is critical to the success of your treatment. Finding the professional who best fits your needs may require some research."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello, thanks for asking",
+        "Good to see you again",
+        "Hi there, how can I help?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Nice chatting to you, bye",
+        "Till next time"
+      ],
+      "responses": [
+        "See you!",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me"
+      ],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"],
+      "context": [""]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": [
+        "Sorry, can't understand you",
+        "Please give me more info",
+        "Not sure I understand"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "options",
+      "patterns": [
+        "How you could help me?",
+        "What you can do?",
+        "What help you provide?",
+        "How you can be helpful?",
+        "What support is offered"
+      ],
+      "responses": [
+        "I can guide you through Adverse drug reaction list, Blood pressure tracking, Hospitals and Pharmacies",
+        "Offering support for Adverse drug reaction, Blood pressure, Hospitals and Pharmacies"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "adverse_drug",
+      "patterns": [
+        "How to check Adverse drug reaction?",
+        "Open adverse drugs module",
+        "Give me a list of drugs causing adverse behavior",
+        "List all drugs suitable for patient with adverse reaction",
+        "Which drugs dont have adverse reaction?"
+      ],
+      "responses": ["Navigating to Adverse drug reaction module"],
+      "context": [""]
+    },
+    {
+      "tag": "blood_pressure",
+      "patterns": [
+        "Open blood pressure module",
+        "Task related to blood pressure",
+        "Blood pressure data entry",
+        "I want to log blood pressure results",
+        "Blood pressure data management"
+      ],
+      "responses": ["Navigating to Blood Pressure module"],
+      "context": [""]
+    },
+    {
+      "tag": "blood_pressure_search",
+      "patterns": [
+        "I want to search for blood pressure result history",
+        "Blood pressure for patient",
+        "Load patient blood pressure result",
+        "Show blood pressure results for patient",
+        "Find blood pressure results by ID"
+      ],
+      "responses": ["Please provide Patient ID", "Patient ID?"],
+      "context": ["search_blood_pressure_by_patient_id"]
+    },
+    {
+      "tag": "search_blood_pressure_by_patient_id",
+      "patterns": [],
+      "responses": ["Loading Blood pressure result for Patient"],
+      "context": [""]
+    },
+    {
+      "tag": "pharmacy_search",
+      "patterns": [
+        "Find me a pharmacy",
+        "Find pharmacy",
+        "List of pharmacies nearby",
+        "Locate pharmacy",
+        "Search pharmacy"
+      ],
+      "responses": ["Please provide pharmacy name"],
+      "context": ["search_pharmacy_by_name"]
+    },
+    {
+      "tag": "search_pharmacy_by_name",
+      "patterns": [],
+      "responses": ["Loading pharmacy details"],
+      "context": [""]
+    },
+    {
+      "tag": "hospital_search",
+      "patterns": [
+        "Lookup for hospital",
+        "Searching for hospital to transfer patient",
+        "I want to search hospital data",
+        "Hospital lookup for patient",
+        "Looking up hospital details"
+      ],
+      "responses": ["Please provide hospital name or location"],
+      "context": ["search_hospital_by_params"]
+    },
+    {
+      "tag": "search_hospital_by_params",
+      "patterns": [],
+      "responses": ["Please provide hospital type"],
+      "context": ["search_hospital_by_type"]
+    },
+    {
+      "tag": "search_hospital_by_type",
+      "patterns": [],
+      "responses": ["Loading hospital details"],
+      "context": [""]
+    },
+    {
+      "tag": "depression",
+      "patterns": [
+        "I am feeling a lot depressed",
+        "I feel low all the time",
+        "I am always worried about myself",
+        "I always feel sad and uneasy"
+      ],
+      "responses": [
+        "Attend regular counselling sessions",
+        "Do regular exercise"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "anxiety disorders",
+      "patterns": [
+        "I am feeling anxious all the time",
+        "I think I am facing some anxiety disorders",
+        "I am feeling worried ",
+        "I feel tensed and restless"
+      ],
+      "responses": [
+        "Get Adequate sleep",
+        "Avoid thinking about negative thoughts"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "bipolar affective disorder",
+      "patterns": [
+        "I am having extreme mood swings",
+        "I am facing extreme emotional highs and lows",
+        "I am having bipolar affective disorder",
+        "I think I am suffering from bipolar affective disorder"
+      ],
+      "responses": ["Stay calm under such situations", "Take proper rest"],
+      "context": [""]
+    },
+    {
+      "tag": "behavioural and emotional disorders",
+      "patterns": [
+        "I am dealing with some behavioural disorders",
+        "I am dealing with some emotional disorders",
+        "I am noticing drastic change in my behaviour",
+        "I am emotionally disturbed"
+      ],
+      "responses": ["Go for a walk", "Listen to music"],
+      "context": [""]
+    },
+    {
+      "tag": "dissociation and dissociative disorders",
+      "patterns": [
+        "I ams experiencing memory lapses such as forgetting important personal information",
+        "I feel disconnected from myself",
+        "I am facing problem in handling intense emotions",
+        "I am feeling compelled to behave in a certain way"
+      ],
+      "responses": [
+        "Work on stress managment as stress can trigger symptoms",
+        "Try Psychotherapy that is attending talk-theraphy or counselling sessions"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "Eating",
+      "patterns": [
+        "I have abnormal eating patterns",
+        "I have got an obsession with food",
+        "I have got an obsession with body weight",
+        "I have got an obsession with body shape"
+      ],
+      "responses": [
+        "Hello, It seems like you are having symptoms of eating disorder.",
+        "Hi there, These symptoms indicate eating disorder."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "eatdefine",
+      "patterns": [
+        "What is Eating Disorder?",
+        "What does Eating disorder refer to?",
+        "What does it mean by Eating Disorder?"
+      ],
+      "responses": [
+        "An eating disorder is a serious mental illness, characterised by eating, exercise and body weight or shape becoming an unhealthy preoccupation of someone's life."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "causeeat",
+      "patterns": [
+        "What causes Eating Disorder?",
+        "How one person gets affected by Eating Disorder?"
+      ],
+      "responses": [
+        "It can be caused due to one or many of these reasons: Striving to be perfect in one or more areas, Low self-esteem, Poor body image, Social pressure to be thin, Problems coping and dealing with stress, Bullying"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "eatdefine",
+      "patterns": [
+        "How to counter Eating Disorder?",
+        "What are ways we can fight Eating Disorder?"
+      ],
+      "responses": [
+        "Face situations you are avoiding regarding food habits",
+        "Tolerate feelings of anxiety when you do not exercise.",
+        "Tolerate feelings of fullness"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "OCD",
+      "patterns": [
+        "I experience unwanted repetitive thoughts that cause anxiety.",
+        "I fear contamination from people or the environment.",
+        "I experience intrusive thoughts that are aggressive."
+      ],
+      "responses": [
+        "Try hard to agree with all obsessive thoughts",
+        "Do not waste time trying to prevent or not think your thoughts",
+        "Don’t get too impatient with your progress, or compare yourself to someone else."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "Paranoia",
+      "patterns": [
+        "I often get suspicious of other people and their motives.",
+        "I hesitate to confide in others.",
+        "I often hold grudges.",
+        "I respond with hostility or anger when I feel insulted."
+      ],
+      "responses": [
+        "Practice Positive Visualizations",
+        "Banish Self-conscious Thinking",
+        "Seek help from a therapist to help with your insecurity",
+        "Take a deep breath and try discarding unproductive thoughts."
+      ],
+      "context": [""]
+    }
+  ]
+}
