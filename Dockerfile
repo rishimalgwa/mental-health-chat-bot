@@ -5,11 +5,8 @@ RUN apk --update --upgrade add --no-cache  gcc musl-dev jpeg-dev zlib-dev libffi
 
 RUN python -m pip install --upgrade pip
 COPY requirements.txt requirements.txt
-# RUN pip install -r requirements.txt
-RUN pip install tensorflow 
-RUN pip install keras 
-RUN pip install nltk 
-RUN pip install flask 
+RUN pip install -r requirements.txt
+
 
 EXPOSE 7007
 COPY . .
